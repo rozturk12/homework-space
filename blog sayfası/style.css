@@ -1,0 +1,67 @@
+/* Genel Sayfa Stili */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Başlık Alanı */
+header {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Ana İçerik */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Blog Yazısı */
+.blog-post {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  margin-top: 0;
+  color: #000000;
+}
+
+.blog-post .date {
+  font-size: 0.9em;
+  color: gray;
+}
+
+.blog-post a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  background: #000000;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.blog-post a:hover {
+  background: #000000;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #000000;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
